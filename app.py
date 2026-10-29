@@ -99,11 +99,13 @@ demo = gr.ChatInterface(
     additional_inputs=[pdf_input],
     title="Nestlé AI-Powered HR Assistant",
     description="Upload an HR policy PDF and ask questions.",
-    examples=[
-        "What is Nestlé's HR policy about?",
-        "What are the HR principles?",
-        "What does the policy say about employees?"
-    ]
+   
+examples=[
+    ["What is Nestlé's HR policy about?", None],
+    ["What are the HR principles?", None],
+    ["What does the policy say about employees?", None]
+]
+
 )
 
 if __name__ == "__main__":
