@@ -1,0 +1,14 @@
+
+gradio==5.49.1
+transformers==4.57.6
+huggingface-hub==0.36.2
+sentencepiece
+torch
+sentence-transformers
+langchain
+langchain-community
+langchain-chroma
+langchain-text-splitters
+langchain-openai
+chromadb
+pypdf
