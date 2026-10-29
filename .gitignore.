@@ -1,0 +1,26 @@
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# API keys and secrets
+.env
+.env.*
+*.key
+secrets.json
+
+# Local databases
+chroma_db/
+chroma/
+*.sqlite3
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
